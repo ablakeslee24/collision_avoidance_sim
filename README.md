@@ -1,4 +1,4 @@
-# lorenz_audition
+# Collision Detection and Avoidance Simulator
 Work-in-Progress python conflict detection and avoidance simulation
 
 ## Current Features
