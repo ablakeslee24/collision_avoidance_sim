@@ -33,7 +33,7 @@ class Resolution:
                 winner, yielder = b, a
 
             if yielder.id not in self.yielding:
-                yielder.slow_down(self.slow_factor)
+                yielder.decelerate(self.slow_factor)
                 self.yielding[yielder.id] = winner.id
 
                 self.resolution_log.append(
